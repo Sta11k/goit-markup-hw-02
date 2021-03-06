@@ -38,6 +38,7 @@ background: #FFFFFF;
   font-size: 14px;
   line-height: 16px;
   color: #2196F3;
+  text-decoration: none;
 }
 
 .link-title-old{
@@ -45,6 +46,10 @@ background: #FFFFFF;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
+}
+
+.link-title-old{
+  text-decoration: none;
 }
 
 /* contacts general link*/
@@ -64,6 +69,7 @@ background: #FFFFFF;
   font-size: 14px;
   line-height: 16px;
   color: #757575;
+  text-decoration: none;
 }
 /* Infirmation */
 .title-hero{
@@ -74,6 +80,7 @@ background: #FFFFFF;
 }
 
 .title-hero-section{
+  width: auto;
   background-color:#2F303A;
  
 }
@@ -96,26 +103,30 @@ background: #FFFFFF;
  background-color:#757575 ;
 }
 /* Our advantage */
-.our-advatage h3{
+.or-advatage h3{
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
 }
 
-.our-advatage p{
+.or-advatage p{
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #757575;
 }
 
+.advatage li{
+display: inline-block;
+margin: 30px;
+}
 /* <!-- Our work --> */
 
 .link-work>li{
   display: inline;
-  margin: 30px;
-  text-align: center;
+  margin:30px;
+  
 }
 
  
@@ -137,6 +148,17 @@ background: #FFFFFF;
 }
 
 /* our team */
+.team-title{
+  width: auto;
+  background-color: #F5F4FA;
+ }
+
+.title-team-name li{
+  display: inline-block ;
+  margin: 30px;
+  text-align: center;
+} 
+
 .title-team-name h3{
   font-weight: 500;
   font-size: 16px;
@@ -156,8 +178,10 @@ background: #FFFFFF;
 } */
 
 .foot-color-fonts{
-width: 1600px;
+
+width: auto;
 background-color: #2F303A;
+margin-top: 0px; ;
 
 
 }
