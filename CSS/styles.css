@@ -99,7 +99,7 @@ background: #FFFFFF;
 .btn:hover,
 .btn:focus,
 .btn:active{
- color: coral;
+ color:#757575;
  background-color:#757575 ;
 }
 /* Our advantage */
