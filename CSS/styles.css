@@ -135,7 +135,7 @@ color: var(--hover-focus-color) ;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
+  cursor: pointer;
 }
 
 
@@ -316,6 +316,7 @@ color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
   }
 
 .radio-btn-oll:hover,
@@ -349,6 +350,7 @@ color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .radio-btn-web:hover,
@@ -382,6 +384,7 @@ color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .radio-btn-gadgets:hover,
@@ -415,6 +418,7 @@ color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .radio-btn-disign:hover,
@@ -447,6 +451,7 @@ color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .radio-btn-marketing:hover,
