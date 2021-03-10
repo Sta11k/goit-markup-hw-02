@@ -176,10 +176,7 @@ color: var(--hover-focus-color) ;
 
   }
 
-.advatage li{
-  display: inline-block;
-  margin: 30px;
-}
+
 /* <!-- Our work --> */
 
 .title-work {
@@ -191,12 +188,6 @@ color: var(--hover-focus-color) ;
   color:var(--title-text-color) ;
 
  }
-
-.link-work>li{
-  display: inline;
-  margin:30px;
-  
-}
 
  
  /* <!-- Our team --> */
@@ -214,17 +205,11 @@ color: var(--hover-focus-color) ;
   color: var(--title-text-color);
 }
 
-.title-team-name li{
-  display: inline-block ;
-  margin: 30px;
-  text-align: center;
-} 
 
 .title-team-name h3{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 
@@ -232,10 +217,8 @@ color: var(--hover-focus-color) ;
 
 
 .title-team-name p{
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--prymory-text-color);
 }
