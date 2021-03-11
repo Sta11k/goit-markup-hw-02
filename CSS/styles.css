@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #212121;
+  color: #757575;
 }
 
 :root {
@@ -447,6 +447,7 @@ color: #FFFFFF;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
 
 .main-projects p {
