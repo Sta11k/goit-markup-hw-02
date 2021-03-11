@@ -111,7 +111,7 @@ li {
   background-color: var(--background-fone);
 }
 
-.btn-text-col {
+.btn {
   font-family: var(--text-general-top);
   font-weight: 700;
   font-size: 16px;
@@ -120,9 +120,7 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--whiet-text-color);
-}
 
-.btn {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -134,8 +132,7 @@ li {
 }
 
 .btn:hover,
-.btn:focus,
-.btn:active {
+.btn:focus {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -272,6 +269,7 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+
   width: 73px;
   height: 38px;
   left: 495px;
@@ -308,6 +306,7 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+
   width: 128px;
   height: 38px;
   left: 576px;
@@ -343,6 +342,7 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+
   width: 145px;
   height: 38px;
   left: 712px;
