@@ -1,30 +1,31 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #212121;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #212121;
 }
 
-:root{
+:root {
+  --text-general-top: 'Roboto', sans-serif;
   --prymory-text-color: #757575;
-  --title-text-color:#212121;
-  --whiet-text-color:#ffffff;
-  --hover-focus-color: #2196F3;
-  --black-text-color:#000000;
-  --background-fone:#2F303A; ;
+  --title-text-color: #212121;
+  --whiet-text-color: #ffffff;
+  --hover-focus-color: #2196f3;
+  --black-text-color: #000000;
+  --background-fone: #2f303a;
 }
 
 /* Maker LI KILED */
-li{
+li {
   list-style: none;
 }
 
 /* link-general */
-.link-general-top{
-background: #FFFFFF;
+.link-general-top {
+  background: #ffffff;
 }
 
-.logo{
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -33,26 +34,25 @@ background: #FFFFFF;
   color: var(--hover-focus-color);
   letter-spacing: 0.03em;
 }
-.logo-end{
+.logo-end {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--black-text-color) ;
+  color: var(--black-text-color);
   letter-spacing: 0.03em;
 }
-.logo-decor{
+.logo-decor {
   text-decoration: none;
 }
 
-.link-title-col{
+.link-title-col {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
 }
 
 .link-phone:hover,
@@ -60,25 +60,24 @@ background: #FFFFFF;
 .link-mail:hover,
 .link-mail:focus,
 .link-title-col:hover,
-.link-title-col:focus{
-color: var(--hover-focus-color) ;
+.link-title-col:focus {
+  color: var(--hover-focus-color);
 }
 
-
-.link-title-old{
+.link-title-old {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color:  var(--title-text-color);
+  color: var(--title-text-color);
 }
 
-.link-title-old{
+.link-title-old {
   text-decoration: none;
 }
 
 /* contacts general link*/
 
-.link-mail{
+.link-mail {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -87,95 +86,85 @@ color: var(--hover-focus-color) ;
   color: var(--prymory-text-color);
 }
 
-
-.link-phone{
+.link-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
- color: var(--prymory-text-color);
+  color: var(--prymory-text-color);
   text-decoration: none;
 }
 
-
-
 /* Infirmation */
 
-.title-hero{
+.title-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--whiet-text-color) ;
+  color: var(--whiet-text-color);
 }
 
-.title-hero-section{
+.title-hero-section {
   width: 1650px;
   background-color: var(--background-fone);
- 
 }
 
-.btn-text-col{
-  font-weight: bold;
+.btn-text-col {
+  font-family: var(--text-general-top);
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--whiet-text-color) ;
-   
+  color: var(--whiet-text-color);
 }
 
-.btn{
+.btn {
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
 
-
 .btn:hover,
 .btn:focus,
-.btn:active{
+.btn:active {
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #188CE8;
+  background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
-
-
 /* Our advantage */
-.hidden{
+.hidden {
   display: none;
 }
 
-.or-advatage h3{
+.or-advatage h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
-
 }
 
-.or-advatage p{
+.or-advatage p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--prymory-text-color);
-
-  }
-
+}
 
 /* <!-- Our work --> */
 
@@ -185,18 +174,16 @@ color: var(--hover-focus-color) ;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--title-text-color) ;
+  color: var(--title-text-color);
+}
 
- }
-
- 
- /* <!-- Our team --> */
-.team-title{
+/* <!-- Our team --> */
+.team-title {
   width: auto;
-  background-color: #F5F4FA;
- }
+  background-color: #f5f4fa;
+}
 
-.title-team{
+.title-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -205,18 +192,15 @@ color: var(--hover-focus-color) ;
   color: var(--title-text-color);
 }
 
-
-.title-team-name h3{
+.title-team-name h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
 
-  }
-
-
-.title-team-name p{
+.title-team-name p {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -226,25 +210,23 @@ color: var(--hover-focus-color) ;
 /* Contacs footer */
 /* .foot-color-fonts */
 
-.foot-color-fonts{
-  
+.foot-color-fonts {
   width: auto;
   background-color: var(--background-fone);
   margin-top: 0px;
 }
 
-.logo-footer-oll{
+.logo-footer-oll {
   text-decoration: none;
-
 }
 
-.logo-footer{
+.logo-footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--whiet-text-color);
- }
+}
 
 /* .title-ftr-adrs{
 font-weight: normal;
@@ -254,20 +236,19 @@ color: #FFFFFF;
 } */
 
 .link-phone-footer,
-.link-mail-footer{
+.link-mail-footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-
 }
 
-.link-adr-footer{
+.link-adr-footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--whiet-text-color) ;
+  color: var(--whiet-text-color);
   text-decoration: none;
 }
 
@@ -276,202 +257,203 @@ color: #FFFFFF;
 .link-phone-footer:hover,
 .link-phone-footer:focus,
 .link-mail-footer:hover,
-.link-mail-footer:focus{
+.link-mail-footer:focus {
   color: var(--hover-focus-color);
-
 }
-                                                    /* PORTFOLIO */
+/* PORTFOLIO */
 
 /* batton-oll */
 
-.radio-btn-oll{
+.radio-btn-oll {
+  font-family: var(--text-general-top);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color); 
+  color: var(--title-text-color);
   width: 73px;
   height: 38px;
   left: 495px;
   top: 174px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
-  }
+}
 
 .radio-btn-oll:hover,
-.radio-btn-oll:focus{
+.radio-btn-oll:focus {
   width: 73px;
   height: 38px;
   left: 495px;
   top: 174px;
-  background: #2196F3;
+  background: #2196f3;
   /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--whiet-text-color);
-
 }
 
 /* BTN-WEB */
 
-.radio-btn-web{
+.radio-btn-web {
+  font-family: var(--text-general-top);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color); 
+  color: var(--title-text-color);
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .radio-btn-web:hover,
-.radio-btn-web:focus{
+.radio-btn-web:focus {
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
-  background: #2196F3;
+  background: #2196f3;
   /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--whiet-text-color);
-
 }
 
-
 /* GADGETS */
-.radio-btn-gadgets{
+.radio-btn-gadgets {
+  font-family: var(--text-general-top);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color); 
+  color: var(--title-text-color);
   width: 145px;
   height: 38px;
   left: 712px;
   top: 174px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .radio-btn-gadgets:hover,
-.radio-btn-gadgets:focus{
+.radio-btn-gadgets:focus {
   width: 145px;
   height: 38px;
   left: 712px;
   top: 174px;
-  background: #2196F3;
+  background: #2196f3;
   /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--whiet-text-color);
-
 }
 
 /* DISIGNE */
 
-.radio-btn-disign{
+.radio-btn-disign {
+  font-family: var(--text-general-top);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color); 
+  color: var(--title-text-color);
   width: 103px;
   height: 38px;
   left: 865px;
   top: 174px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .radio-btn-disign:hover,
-.radio-btn-disign:focus{
+.radio-btn-disign:focus {
   width: 103px;
   height: 38px;
   left: 865px;
   top: 174px;
-  background: #2196F3;
+  background: #2196f3;
   /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--whiet-text-color);
-
 }
 /* MARKETING */
 
-.radio-btn-marketing{
+.radio-btn-marketing {
+  font-family: var(--text-general-top);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color); 
+  color: var(--title-text-color);
   width: 130px;
   height: 38px;
   left: 976px;
   top: 174px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .radio-btn-marketing:hover,
-.radio-btn-marketing:focus{
+.radio-btn-marketing:focus {
   width: 130px;
   height: 38px;
   left: 976px;
   top: 174px;
-  background: #2196F3;
+  background: #2196f3;
   /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--whiet-text-color);
-
 }
-
-
-
 
 /* MAIN  INFORMATION*/
 
-.main-projects h2{
+.main-projects h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color:var(--title-text-color);
-
-
 }
 
-.main-projects p{
+.main-projects p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--prymory-text-color) ;
-
+  color: var(--prymory-text-color);
 }
 
 /* .main-projects{
