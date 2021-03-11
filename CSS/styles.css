@@ -284,15 +284,7 @@ color: #FFFFFF;
 
 .radio-btn-oll:hover,
 .radio-btn-oll:focus {
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
   background: #2196f3;
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   color: var(--whiet-text-color);
 }
 
@@ -321,20 +313,12 @@ color: #FFFFFF;
 
 .radio-btn-web:hover,
 .radio-btn-web:focus {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   background: #2196f3;
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   color: var(--whiet-text-color);
 }
 
 /* GADGETS */
-.radio-btn-gadgets {
+  .radio-btn-gadgets {
   font-family: var(--text-general-top);
   font-weight: 500;
   font-size: 16px;
@@ -357,15 +341,7 @@ color: #FFFFFF;
 
 .radio-btn-gadgets:hover,
 .radio-btn-gadgets:focus {
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
   background: #2196f3;
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   color: var(--whiet-text-color);
 }
 
@@ -393,21 +369,14 @@ color: #FFFFFF;
 
 .radio-btn-disign:hover,
 .radio-btn-disign:focus {
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
   background: #2196f3;
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   color: var(--whiet-text-color);
 }
+
 /* MARKETING */
 
 .radio-btn-marketing {
-  font-family: var(--text-general-top);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -428,15 +397,7 @@ color: #FFFFFF;
 
 .radio-btn-marketing:hover,
 .radio-btn-marketing:focus {
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
   background: #2196f3;
-  /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   color: var(--whiet-text-color);
 }
 
