@@ -35,7 +35,7 @@ li {
   letter-spacing: 0.03em;
 }
 .logo-end {
-  font-family: 'Raleway', sans-serif;;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -53,6 +53,9 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+li .active {
+  color: var(--hover-focus-color);
 }
 
 .link-phone:hover,
@@ -112,7 +115,7 @@ li {
 }
 
 .btn {
-  font-family: var(--text-general-top);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -262,7 +265,7 @@ color: #FFFFFF;
 /* batton-oll */
 
 .radio-btn-oll {
-  font-family: var(--text-general-top);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -290,7 +293,7 @@ color: #FFFFFF;
 /* BTN-WEB */
 
 .radio-btn-web {
-  font-family: var(--text-general-top);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -316,8 +319,8 @@ color: #FFFFFF;
 }
 
 /* GADGETS */
-  .radio-btn-gadgets {
-  font-family: var(--text-general-top);
+.radio-btn-gadgets {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -345,7 +348,7 @@ color: #FFFFFF;
 /* DISIGNE */
 
 .radio-btn-disign {
-  font-family: var(--text-general-top);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -372,7 +375,7 @@ color: #FFFFFF;
 /* MARKETING */
 
 .radio-btn-marketing {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
