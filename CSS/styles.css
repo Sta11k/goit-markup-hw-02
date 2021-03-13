@@ -355,6 +355,7 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+
   width: 103px;
   height: 38px;
   left: 865px;
@@ -382,6 +383,7 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  
   width: 130px;
   height: 38px;
   left: 976px;
