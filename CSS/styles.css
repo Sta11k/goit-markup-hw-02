@@ -53,6 +53,7 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--title-text-color);
 }
 li .active {
   color: var(--hover-focus-color);
@@ -67,12 +68,12 @@ li .active {
   color: var(--hover-focus-color);
 }
 
-.link-title-old {
+/* .link-title-old {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
-}
+} */
 
 .link-title-old {
   text-decoration: none;
@@ -80,8 +81,8 @@ li .active {
 
 /* contacts general link*/
 
-.link-mail {
-  font-style: normal;
+.link-mail,
+.link-phone  {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -89,13 +90,13 @@ li .active {
   color: var(--prymory-text-color);
 }
 
-.link-phone {
+/* .link-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--prymory-text-color);
   text-decoration: none;
-}
+} */
 
 /* Infirmation */
 
